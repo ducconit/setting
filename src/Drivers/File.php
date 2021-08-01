@@ -5,9 +5,6 @@ namespace Ducnt\Modules\Setting\Drivers;
 
 use Ducnt\Modules\Setting\Supports\DriverBase;
 use Illuminate\Filesystem\Filesystem;
-use Illuminate\Filesystem\FilesystemManager;
-use Illuminate\Support\Arr;
-use Illuminate\Support\Facades\Storage;
 
 class File extends DriverBase
 {

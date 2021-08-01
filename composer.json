@@ -1,0 +1,38 @@
+{
+  "name": "ducnt/setting",
+  "type": "library",
+  "authors": [
+    {
+      "name": "ducconit",
+      "email": "ducconit@gmail.com"
+    }
+  ],
+  "require": {
+    "php": "^7.3|^8.0",
+    "laravel/framework": "^8.40"
+  },
+  "require-dev": {
+    "phpunit/phpunit": "^9.3.3",
+    "orchestra/testbench": "^6.19"
+  },
+  "autoload": {
+    "psr-4": {
+      "Ducnt\\Modules\\Setting\\": "src/"
+    }
+  },
+  "autoload-dev": {
+    "psr-4": {
+      "Ducnt\\Modules\\Setting\\Tests\\": "tests/"
+    }
+  },
+  "extra": {
+    "laravel": {
+      "providers": [
+        "Ducnt\\Modules\\Setting\\SettingServiceProvider"
+      ],
+      "aliases": {
+        "Setting": "Ducnt\\Modules\\Setting\\Facades\\Setting"
+      }
+    }
+  }
+}
