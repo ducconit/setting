@@ -29,6 +29,14 @@ class SettingServiceProvider extends ServiceProvider
 
     public function boot()
     {
+        $this->publishResources();
 
+    }
+
+    private function publishResources()
+    {
+        $this->publishes([
+            MODULE_SETTING_PATH . '/config/setting.php' => config_path('setting.php')
+        ], 'setting');
     }
 }
