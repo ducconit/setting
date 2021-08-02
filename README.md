@@ -7,20 +7,6 @@
     + Sử dụng cho mảng đa chiều (ghi đè các tệp config)
 
 #### Cài đặt
-
-- Sao chép đoạn mã sau và thêm vào cuối file `composer.json`:
-
-```json
-"repositories" : [
-    {
-        "type": "git",
-        "url": "https://code.sphoton.com/ducnt/setting.git"
-    }
-]
-```
-
-- Sau đó cài đặt như các package khác thông qua `composer`:
-
 `composer require ducnt/setting`
 
 #### File configuration
