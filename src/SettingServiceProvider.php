@@ -11,7 +11,7 @@ class SettingServiceProvider extends ServiceProvider
     public function register()
     {
         /**
-         * Path modules
+         * Path plugins
          */
         if (!defined('VENDOR_SETTING_PATH')) {
             define('VENDOR_SETTING_PATH', __DIR__);

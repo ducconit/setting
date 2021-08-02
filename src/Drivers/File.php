@@ -55,7 +55,7 @@ class File extends DriverBase
         if (!$filesystem->exists($filePath)) {
             //Tạo folder
             if (!$filesystem->exists(dirname($filePath))) {
-                $filesystem->makeDirectory(storage_path('framework/modules'), 777, true);
+                $filesystem->makeDirectory(dirname($filePath), 777, true);
             }
             $filesystem->put($filePath, '{}');
         }

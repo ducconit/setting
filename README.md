@@ -46,7 +46,7 @@ php artisan vendor:publish --tag=setting
 Sử dụng `Facade`:
 
 ```php
-use Ducnt\Modules\Setting\Facades\Setting;
+use Ducnt\Plugins\Setting\Facades\Setting;
 ```
 
 - Lấy tất cả dữ liệu:
