@@ -37,5 +37,8 @@
         "Setting": "Ducnt\\Plugins\\Setting\\Facades\\Setting"
       }
     }
+  },
+  "scripts": {
+    "test": "phpunit"
   }
 }

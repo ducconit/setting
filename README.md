@@ -74,3 +74,6 @@ Setting::save();
 #### Gỡ cài đặt
 
 `composer remove ducnt/setting`
+
+#### Testing
+`composer test`
