@@ -12,8 +12,10 @@
 
 ```json
 "repositories" : [
-"type": "git",
-"url": "https://code.sphoton.com/ducnt/setting.git"
+    {
+        "type": "git",
+        "url": "https://code.sphoton.com/ducnt/setting.git"
+    }
 ]
 ```
 
