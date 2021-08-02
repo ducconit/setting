@@ -1,6 +1,6 @@
 <?php
 
-namespace Ducnt\Modules\Setting\Supports;
+namespace Ducnt\Plugins\Setting\Supports;
 
 use Illuminate\Cache\CacheManager;
 use Illuminate\Contracts\Container\Container;

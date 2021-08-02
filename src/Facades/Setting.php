@@ -1,6 +1,6 @@
 <?php
 
-namespace Ducnt\Modules\Setting\Facades;
+namespace Ducnt\Plugins\Setting\Facades;
 
 use Illuminate\Support\Facades\Facade;
 

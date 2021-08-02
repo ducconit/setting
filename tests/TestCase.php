@@ -1,9 +1,9 @@
 <?php
 
-namespace Ducnt\Modules\Setting\Tests;
+namespace Ducnt\Plugins\Setting\Tests;
 
-use Ducnt\Modules\Setting\Facades\Setting;
-use Ducnt\Modules\Setting\SettingServiceProvider;
+use Ducnt\Plugins\Setting\Facades\Setting;
+use Ducnt\Plugins\Setting\SettingServiceProvider;
 use Orchestra\Testbench\TestCase as BaseTestCase;
 
 abstract class TestCase extends BaseTestCase

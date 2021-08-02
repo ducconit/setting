@@ -17,21 +17,21 @@
   },
   "autoload": {
     "psr-4": {
-      "Ducnt\\Modules\\Setting\\": "src/"
+      "Ducnt\\Plugins\\Setting\\": "src/"
     }
   },
   "autoload-dev": {
     "psr-4": {
-      "Ducnt\\Modules\\Setting\\Tests\\": "tests/"
+      "Ducnt\\Plugins\\Setting\\Tests\\": "tests/"
     }
   },
   "extra": {
     "laravel": {
       "providers": [
-        "Ducnt\\Modules\\Setting\\SettingServiceProvider"
+        "Ducnt\\Plugins\\Setting\\SettingServiceProvider"
       ],
       "aliases": {
-        "Setting": "Ducnt\\Modules\\Setting\\Facades\\Setting"
+        "Setting": "Ducnt\\Plugins\\Setting\\Facades\\Setting"
       }
     }
   }
