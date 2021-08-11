@@ -5,9 +5,11 @@ namespace Ducnt\Plugins\Setting\Supports;
 use Illuminate\Cache\CacheManager;
 use Illuminate\Contracts\Container\Container;
 use Illuminate\Support\Arr;
+use Illuminate\Support\Traits\Macroable;
 
 abstract class DriverBase
 {
+    use Macroable;
     /**
      * Container application
      * @var Container
