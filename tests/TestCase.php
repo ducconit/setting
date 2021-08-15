@@ -1,19 +1,13 @@
 <?php
 
-namespace Ducnt\Plugins\Setting\Tests;
+namespace Modules\Setting\Tests;
 
-use Ducnt\Plugins\Setting\Facades\Setting;
-use Ducnt\Plugins\Setting\SettingServiceProvider;
+use Modules\Setting\Facades\Setting;
+use Modules\Setting\SettingServiceProvider;
 use Orchestra\Testbench\TestCase as BaseTestCase;
 
 abstract class TestCase extends BaseTestCase
 {
-
-    public function setUp(): void
-    {
-        parent::setUp();
-        // additional setup
-    }
 
     protected function getPackageProviders($app)
     {

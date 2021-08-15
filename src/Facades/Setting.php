@@ -1,10 +1,9 @@
 <?php
 
-namespace Ducnt\Plugins\Setting\Facades;
+namespace Modules\Setting\Facades;
 
-use Ducnt\Plugins\Setting\Supports\DriverBase;
+use Modules\Setting\Supports\DriverBase;
 use Illuminate\Support\Facades\Facade;
-use phpDocumentor\Reflection\Types\Object_;
 
 /**
  * @method static DriverBase all()

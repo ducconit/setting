@@ -1,8 +1,6 @@
 <?php
 
-namespace Ducnt\Plugins\Setting\Tests;
-
-use Illuminate\Foundation\Testing\RefreshDatabase;
+namespace Modules\Setting\Tests;
 
 class TestFileDriver extends TestCase
 {

@@ -1,6 +1,6 @@
 {
-  "name": "ducnt/setting",
-  "type": "library",
+  "name": "dnt/setting",
+  "type": "module",
   "authors": [
     {
       "name": "ducconit",
@@ -17,12 +17,12 @@
   },
   "autoload": {
     "psr-4": {
-      "Ducnt\\Plugins\\Setting\\": "src/"
+      "Modules\\Setting\\": "src/"
     }
   },
   "autoload-dev": {
     "psr-4": {
-      "Ducnt\\Plugins\\Setting\\Tests\\": "tests/"
+      "Modules\\Setting\\Tests\\": "tests/"
     },
     "files": [
       "src/helper.php"
@@ -31,10 +31,10 @@
   "extra": {
     "laravel": {
       "providers": [
-        "Ducnt\\Plugins\\Setting\\SettingServiceProvider"
+        "Modules\\Setting\\SettingServiceProvider"
       ],
       "aliases": {
-        "Setting": "Ducnt\\Plugins\\Setting\\Facades\\Setting"
+        "Setting": "Modules\\Setting\\Facades\\Setting"
       }
     }
   },

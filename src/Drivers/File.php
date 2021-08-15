@@ -1,9 +1,9 @@
 <?php
 
-namespace Ducnt\Plugins\Setting\Drivers;
+namespace Modules\Setting\Drivers;
 
 
-use Ducnt\Plugins\Setting\Supports\DriverBase;
+use Modules\Setting\Supports\DriverBase;
 use Illuminate\Filesystem\Filesystem;
 
 class File extends DriverBase

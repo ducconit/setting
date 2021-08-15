@@ -1,8 +1,8 @@
 <?php
 
-namespace Ducnt\Plugins\Setting\Supports;
+namespace Modules\Setting\Supports;
 
-use Ducnt\Plugins\Setting\Drivers\File;
+use Modules\Setting\Drivers\File;
 use Illuminate\Support\Manager;
 
 /**

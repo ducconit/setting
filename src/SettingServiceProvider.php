@@ -1,8 +1,8 @@
 <?php
 
-namespace Ducnt\Plugins\Setting;
+namespace Modules\Setting;
 
-use Ducnt\Plugins\Setting\Supports\SettingManager;
+use Modules\Setting\Supports\SettingManager;
 use Illuminate\Support\ServiceProvider;
 
 class SettingServiceProvider extends ServiceProvider
@@ -19,7 +19,7 @@ class SettingServiceProvider extends ServiceProvider
         /**
          * Configuration
          */
-        $this->mergeConfigFrom(VENDOR_SETTING_PATH . '/config/setting.php', 'setting');
+        $this->mergeConfigFrom(VENDOR_SETTING_PATH . '/Config/setting.php', 'setting');
 
         $this->app->singleton('setting', function ($app) {
             return new SettingManager($app);
@@ -36,7 +36,7 @@ class SettingServiceProvider extends ServiceProvider
     private function publishResources()
     {
         $this->publishes([
-            VENDOR_SETTING_PATH . '/config/setting.php' => config_path('setting.php')
+            VENDOR_SETTING_PATH . '/Config/setting.php' => config_path('setting.php')
         ], 'setting');
     }
 }

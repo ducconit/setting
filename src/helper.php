@@ -1,6 +1,6 @@
 <?php
 
-use Ducnt\Plugins\Setting\Supports\SettingManager;
+use Modules\Setting\Supports\SettingManager;
 
 if (!function_exists('setting')) {
     /**

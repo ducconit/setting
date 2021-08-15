@@ -1,8 +1,8 @@
 <?php
 
-namespace Ducnt\Plugins\Setting\Tests;
+namespace Modules\Setting\Tests;
 
-use Ducnt\Plugins\Setting\Facades\Setting;
+use Modules\Setting\Facades\Setting;
 
 class TestMacroSetting extends TestCase
 {
